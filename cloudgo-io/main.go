@@ -1,9 +1,9 @@
-package main
+cpackage main
 
 import (
 	"os"
 
-	"github.com/Tendernesszh/cloudgo-io/service"
+	"github.com/Tendernesszh/cloudgo-io/cloudgo-io/service"
 	flag "github.com/spf13/pflag"
 )
 
