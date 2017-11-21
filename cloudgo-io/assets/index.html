@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/register.js"></script>
+</head>
+
+<body>
+    <img src="images/cng.png" height="50" width="50"/>
+    <h1>User Register</h1>
+    <div>
+        <p class="id">Current ID：</p>
+    </div>
+        <hr />
+        <div>
+            <form action="/userinfo" method="post">
+                <p>New ID：<input type="text" name="id" /></p>
+                <p>Password：<input type="text" name="password" /></p>
+                <input type="submit" value="register" />
+            </form>
+        </div>
+        <hr />
+</body>
+</html>
